@@ -15,7 +15,6 @@ The `backend/` directory houses the server-side application that:
 - Receives data from Arduino devices
 - Processes and stores vital signs data
 - Provides API endpoints for the frontend
-- Manages data persistence and security
 - Handles real-time data streaming
 
 ### 🌐 Frontend
@@ -23,19 +22,27 @@ The `frontend/` directory contains the web application that:
 - Displays real-time vital signs data
 - Provides a user interface for medical staff
 - Visualizes patient data through charts and graphs
-- Manages user authentication and authorization
-
-## Getting Started
-
-Detailed setup instructions for each component can be found in their respective directories:
-- [Arduino Setup](./arduino/README.md)
-- [Backend Setup](./backend/README.md)
-- [Frontend Setup](./frontend/README.md)
 
 ## License
 
-[Add appropriate license information]
+MIT License
 
-## Contributing
+Copyright (c) 2024
 
-[Add contribution guidelines] 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. 
