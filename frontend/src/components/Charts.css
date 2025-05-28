@@ -1,0 +1,70 @@
+.charts-container {
+    padding: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .charts-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .charts-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chart-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .chart-card h2 {
+    color: #444;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .chart-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  
+  .boundary-input {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .boundary-input input {
+    width: 80px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .boundary-input label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .chart-wrapper {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
